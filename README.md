@@ -74,4 +74,4 @@ The university ICT office receives technical concerns through various channels (
 ---
 
 ## Author
-[Your Name] – BSIS-3A
+Meryl Soriano – BSIS-3A
