@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login – ICT Service Request</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <h1>🔐 ICT Service Request</h1>
+            <p>Please log in to continue</p>
 
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="your@email.com" required />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="••••••••" required />
+                </div>
+                <button type="submit" class="btn-primary">Log In</button>
+            </form>
+            <p style="margin-top:1rem; font-size:0.85rem; color:#aaa;">
+                Use an account created in Supabase Auth.
+            </p>
+        </div>
+    </div>
+
+    <!-- Supabase JS library -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>
